@@ -1,107 +1,110 @@
-<html>
-
-<head>
-<title> Capture The Flag </title>
- <link rel="stylesheet" href="includes/style.css" type="text/css">
- 
-
-</head>
-
-
-<!-- **Beginning of the body of the index** -->
-
+<!DOCTYPE html>
+<html lang="en">
+<title>UPE CTF</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
 <body>
- 
 
- <!-- Creates the header at the top of the index page -->
-  <center> <font face="Arial" color="red" size="6">
-    ====this is a teaching website====
-   </font>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-orange w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="Includes/signup.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sign-Up</a>
+    <a href="Includes/Login.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Log-In</a>
+    <a href="Includes/about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  </div>
 
-</center>
-   
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="signup.html" class="w3-bar-item w3-button w3-padding-large">Sign-Up</a>
+    <a href="login.html" class="w3-bar-item w3-button w3-padding-large">Log-In</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
 
+<!-- Header -->
+<header class="w3-container w3-yellow w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Welcome to our Sparkdev project, which is a capture the flag website for the UPE and FIU community</h1>
+  <p class="w3-xlarge">Template by w3.css</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
 
-    <center>  <font face="Times New Roman" color="yellow" size="5">
-        Welcome to our Sparkdev project, which is a capture the flag website for UPE and FIU students
-    
-    
-    </center>
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>What is Sparkdev?</h1>
+      <h5 class="w3-padding-32">SparkDev is a nine-week program designed to give students of any skill level the chance to participate in hands-on projects in various STEM fields. Students can venture out and try out new ideas in a risk-free environment. The program is part of Upsilon Pi Epsilon, the Honor Society for the Computing and Information Sciences, and facilitated by SCIS.
+      </h5>
 
-    <a href="https://upe.cs.fiu.edu/"><img src="Images/sparkdev.png" class="rounded" width="160" height="190" border="0"> </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <p class="w3-text-grey"> SparkDev helps introduces students on how to work in a group to create innovative projects in Artificial Intelligence, Virtual Reality, Website Development, Mobile Development, Cyber Security, and Robotics using the latest tech. This gives students a little feel of what it may feel like working for a tech company. After the nine-weeks are up, groups then showcase their projects which is excellent exposure because UPE has a lot of bit name sponsors such as Microsoft, Google, Facebook and even Amazon </p>
+    </div>
 
-    <a href="https://upe.cs.fiu.edu/"><img src="Images/upe.png" class="rounded" width="160" height="190" border="0"> </a>
-      <hr>  </hr>
+    <div class="w3-third w3-center">
+      <img src="Images/sparkdev.png" class="w3-circle" alt="sparkdev">
+    </div>
+  </div>
+</div>
 
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src="Images/upe.png" class="w3-circle" alt="upe">
+    </div>
 
+    <div class="w3-twothird">
+      <h1>What is UPE?</h1>
+      <h5 class="w3-padding-32"> Upsilon Pi Epsilon (UPE) is the largest student organization for technology at Florida International University (FIU). Students in our organization are eligable to join any of our various programs, workshops and events!</h5>
 
-      <table width="100%">
-        <tr>
-          <td align="center">
-          <!-- Home   login/signup  -->
-      
-       <a href="https://upectf.com/">Home </a> &nbsp;&nbsp;&nbsp;
-       <a href="signup.html">Sign up  </a> &nbsp;&nbsp;&nbsp;
-       <a href="about.html">About  </a> &nbsp;&nbsp;&nbsp;
-       <a href="login.html">Log-in  </a> &nbsp;&nbsp;&nbsp;
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
 
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
 
-       <!--Creates the drop down menu for the different categories -->
-
-       <nav align="center">
-        <ul>
-      
-           <li><a href="">Forensics </a>
-              <ul>
-                 <li> <a href=" ">What is it?</a> </li>
-                 <li> <a href="">Challenges</a> </li>
-        </ul>
-        
-           <li><a href="">Cryptography </a>
-              <ul>
-                  <li><a href=" ">What is it?</a> </li>
-                  <li> <a href="">Challenges</a></li>
- 
-             </ul>
-
-          <li><a href="">Web Exploitation </a>
-              <ul>
-                 <li><a href=" ">What is it?</a> </li>
-                 <li><a href="">Challenges</a>   </li>
-              </ul>
-
-          <li><a href="">Reverse engineering </a>
-              <ul>
-                <li><a href=" ">What is it?</a> </li>
-                <li><a href="">Challenges</a>   </li>
-
-             </ul>
-
-          <li><a href="">Binary Exploitation </a>
-            <ul>
-                <li><a href=" ">What is it?</a> </li>
-                <li>  <a href="">Challenges</a>        </li>
-            </ul>
-
-
-
- 
-     </nav>     <!--end of the dropdown menu -->
-    
-     
-
-
-
-
-    
 </body>
+</html>
 
-<!--**End of the body** -->
-
-
-
-
-</html> 
